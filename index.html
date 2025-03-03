@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
@@ -65,22 +70,56 @@
             
         </section>
         
-        <section>
+        <section class="call_back">
             <div class="container">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    <button class="header__btn"></button>
-                </nav>
+                <div class="call_back_content">
+                    <div class="call_back_left">
+                        <h2 class="call_back_title">СВЯЖИТЕСЬ С НАМИ ПО ЛЮБЫМ ВОПРОСАМ</h2>
+                        <form action="">
+                            <div class="inputs">
+                                <input type="text" placeholder="Имя">
+                                <input type="email" placeholder="E-mail">
+                                <input type="tel" placeholder="Телефон">
+                                <input type="text" placeholder="Компания">
+                            </div>
+                            <textarea placeholder="Сообщение"></textarea>
+                            <button class="call_back_btn" type="submit">Задать вопрос</button>
+                        </form>
+                    </div>
+
+                    <div class="call_back_right">
+                        <img src="./images/call_back_right.png" alt="">
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section class="map">
+            <img src="./images/contacts.png" alt="">
+        </section>
+
         <footer>
-            Sanjar
+            <div class="container">
+                <div class="footer__content">
+                    <a href="#" class="footer__left">
+                        <img src="./images/logo.png" alt="Logo">
+                    </a>
+                
+                    <div class="footer__right">
+                        <div class="footer__right_titles">
+                            <p>Каталог</p>
+                            <p>Для клиента</p>
+                            <p>Контакты</p>
+                        </div>
+
+                        <div class="footer__right_abouts">
+                            <a href="#">Trade-in</a>
+                            <a href="#">О нас</a>
+                            <a href="#">+7(495)055-75-86</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </main>
     
